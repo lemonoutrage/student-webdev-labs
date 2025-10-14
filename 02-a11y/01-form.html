@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="../_styles/styles.css" />
   </head>
   <body>
-    <h1>01 - Form</h1>
+    <header>
+      <h1>01 - Form</h1>
+    </header>
     <form action="/submit">
-      <span>Name</span>
-      <input type="text" />
+      <label>
+        <span>Name</span>
+        <input type="text" />
+      </label>
       <br /><br />
       <label>
         Email
@@ -18,9 +22,15 @@
       </label>
       <br /><br />
       <span>Favorite Character</span>
-      <div><input type="radio" id="spongebob" />Spongebob</div>
-      <div><input type="radio" id="patrick" />Patrick</div>
-      <div><input type="radio" id="sandy" />Sandy</div>
+      <label>
+        <div><input type="radio" id="spongebob" />Spongebob</div>
+      </label>
+      <label>
+        <div><input type="radio" id="patrick" />Patrick</div>
+      </label>
+      <label>
+        <div><input type="radio" id="sandy" />Sandy</div>
+      </label>
       <br />
       <button>Submit</button>
     </form>
